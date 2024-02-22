@@ -1,5 +1,7 @@
 body{
     background-color:rgb(110,90,38);
+    margin: 0;
+    padding: 0;
 }
 .gallery {
     display: flex;

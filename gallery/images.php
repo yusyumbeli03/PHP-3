@@ -33,9 +33,8 @@ if ($files === false) {
         for ($i = 0; $i < count($files); $i++) {
             if (($files[$i] != ".") && ($files[$i] != "..")) {
                 $path = $dir . $files[$i];
-        ?>
-        <img src="<?php echo $path; ?>" alt="Image <?php echo $i; ?>">     
-        <?php
+
+        echo "<a href='$path'><img src='$path' alt='$path' /></a>"; 
             }
         }
         ?>
